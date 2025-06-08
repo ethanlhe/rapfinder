@@ -1,0 +1,15 @@
+{
+  "name": "rapfinder",
+  "version": "1.0.0",
+  "description": "An Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+} 
