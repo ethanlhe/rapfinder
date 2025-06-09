@@ -101,18 +101,56 @@ function parseRAP(rapStr) {
     return Math.round(num * mult);
 }
 
+// Demand and Trend mappings
+const DEMAND_MAP = {
+    '-1': { label: 'None', color: '#bbb' },
+    '0': { label: 'Terrible', color: '#e57373' },
+    '1': { label: 'Low', color: '#ffb74d' },
+    '2': { label: 'Normal', color: '#fff176' },
+    '3': { label: 'High', color: '#81c784' },
+    '4': { label: 'Amazing', color: '#64b5f6' }
+};
+const TREND_MAP = {
+    '-1': { label: 'None', color: '#bbb' },
+    '0': { label: 'Lowering', color: '#e57373' },
+    '1': { label: 'Unstable', color: '#ffb74d' },
+    '2': { label: 'Stable', color: '#81c784' },
+    '3': { label: 'Raising', color: '#64b5f6' },
+    '4': { label: 'Fluctuating', color: '#fff176' }
+};
+
 // Process all items with Rolimons data
 function processItems() {
-    processedItems = items.map(item => ({
-        ...item,
-        ratio: item.price ? item.rap / item.price : 0,
-        projected: isProjected(item.name)
-    }));
+    processedItems = items.map(item => {
+        const details = getRolimonsDetails(item.name);
+        return {
+            ...item,
+            ratio: item.price ? item.rap / item.price : 0,
+            projected: isProjected(item.name),
+            demand: details.demand,
+            trend: details.trend
+        };
+    });
+}
+
+function getRolimonsDetails(itemName) {
+    if (!rolimonsData) return { demand: -1, trend: -1 };
+    const normName = normalizeName(itemName);
+    for (const item of Object.values(rolimonsData)) {
+        if (normalizeName(item[0]) === normName) {
+            return {
+                demand: item[5],
+                trend: item[6]
+            };
+        }
+    }
+    return { demand: -1, trend: -1 };
 }
 
 // Update the table with filtered items
 function updateTable() {
-    const maxBudget = parseInt(document.getElementById('budget').value) || 0;
+    const maxBudgetRaw = document.getElementById('budget').value;
+    const maxBudget = maxBudgetRaw === '' ? Infinity : parseInt(maxBudgetRaw);
     const minRap = parseInt(document.getElementById('minRap').value) || 0;
     const minPrice = parseInt(document.getElementById('minPrice').value) || 0;
 
@@ -140,8 +178,16 @@ function updateTable() {
     const tbody = document.getElementById('itemsBody');
     tbody.innerHTML = '';
 
-    filteredItems.forEach(item => {
+    filteredItems.forEach((item, idx) => {
         const row = document.createElement('tr');
+        // Color code the best item (first row)
+        if (idx === 0) {
+            row.style.background = '#e3ffe6';
+            row.style.fontWeight = 'bold';
+        }
+        // Demand and Trend coloring
+        const demandInfo = DEMAND_MAP[item.demand] || DEMAND_MAP['-1'];
+        const trendInfo = TREND_MAP[item.trend] || TREND_MAP['-1'];
         row.innerHTML = `
             <td>
                 ${item.name}
@@ -150,20 +196,24 @@ function updateTable() {
             <td>$${item.price.toLocaleString()}</td>
             <td>$${item.rap.toLocaleString()}</td>
             <td>${item.ratio.toFixed(2)}</td>
+            <td style="color:${demandInfo.color}">${demandInfo.label}</td>
+            <td style="color:${trendInfo.color}">${trendInfo.label}</td>
         `;
         tbody.appendChild(row);
     });
 
     document.getElementById('status').textContent = 
-        `Showing ${filteredItems.length} items (Max Budget: $${maxBudget.toLocaleString()}, Min RAP: $${minRap.toLocaleString()}, Min Price: $${minPrice.toLocaleString()})`;
+        `Showing ${filteredItems.length} items`;
 }
 
 // Event Listeners
-document.getElementById('searchBtn').addEventListener('click', updateTable);
+document.getElementById('budget').addEventListener('input', updateTable);
+document.getElementById('minRap').addEventListener('input', updateTable);
+document.getElementById('minPrice').addEventListener('input', updateTable);
 processPasteBtn.addEventListener('click', async () => {
     const rawText = rawPaste.value;
     if (!rawText.trim()) {
-        alert('Please paste the copied website text. Make sure to load all of the items.');
+        alert('Please paste the copied website text.');
         return;
     }
     document.getElementById('status').textContent = 'Loading Rolimons data...';
@@ -176,7 +226,6 @@ processPasteBtn.addEventListener('click', async () => {
     await fetchRolimonsData();
     processItems();
     updateTable();
-    document.getElementById('searchBtn').textContent = 'Apply Filters';
     pasteModal.style.display = 'none';
     rawPaste.value = '';
 });

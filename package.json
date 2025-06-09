@@ -1,15 +1,29 @@
 {
   "name": "rapfinder",
   "version": "1.0.0",
-  "description": "An Electron application",
+  "description": "An Electron application for finding the best RAP deals.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dev": "electron . --debug"
+    "build": "electron-builder"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^28.1.0"
+    "electron": "^28.1.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.rapfinder.app",
+    "productName": "RAP Deal Finder",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
-} 
+}

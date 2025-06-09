@@ -167,10 +167,9 @@
         <h1>RAP Deal Finder</h1>
     </header>
     <div class="controls">
-        <input type="number" id="budget" placeholder="Max Budget" value="1000">
-        <input type="number" id="minRap" placeholder="Min RAP" value="0">
-        <input type="number" id="minPrice" placeholder="Min Price" value="0">
-        <button id="searchBtn">Apply Filters</button>
+        <input type="number" id="minPrice" placeholder="Min Price" value="">
+        <input type="number" id="budget" placeholder="Max Price" value="">
+        <input type="number" id="minRap" placeholder="Min RAP" value="">
         <button id="pasteBtn">Paste Website Data</button>
     </div>
     <div id="status">No items loaded</div>
@@ -189,7 +188,7 @@
         <div class="modal-content">
             <button class="modal-close" id="closeModalBtn">&times;</button>
             <h2>Paste Website Data</h2>
-            <textarea id="rawPaste" placeholder="Paste the copied website text here..."></textarea>
+            <textarea id="rawPaste" placeholder="Paste the copied website text here... Make sure to load all of the items."></textarea>
             <button id="processPasteBtn">Process</button>
         </div>
     </div>
