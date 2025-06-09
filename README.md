@@ -1,29 +1,39 @@
-# RapFinder
+# RAP Deal Finder
 
-An Electron-based desktop application.
+A modern, fast, and beautiful web app for finding the best RAP (Recent Average Price) deals. Paste your item data, filter, and sort with ease. Now with a sleek dark mode toggle!
 
-## Setup
+## Features
 
-1. Make sure you have Node.js installed on your system
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+- **Paste & Process**: Quickly paste item data from other sources.
+- **Filter**: Set min/max price and RAP filters.
+- **Sort**: Click or Ctrl+Click table headers to sort by multiple columns.
+- **Dark Mode**: Toggle between light and dark themes with a smooth, modern switch. Theme preference is saved and respects your system default.
+- **Responsive**: Works great on desktop and mobile.
 
-## Running the Application
+## Getting Started
 
-To start the application in normal mode:
-```bash
-npm start
-```
+1. **Clone or Download** this repository.
+2. **Open `index.html`** in your browser. No build step or server required!
 
-To start the application with DevTools:
-```bash
-npm run dev
-```
+## Usage
 
-## Development
+1. Click the **paste data** button.
+2. Paste your item data into the modal and click **Process**.
+3. Use the filters and sorting to find the best deals.
+4. Toggle dark mode using the switch in the header.
 
-- `main.js` - Main process file
-- `index.html` - Main window HTML file
-- `package.json` - Project configuration and dependencies 
+## Customization
+
+- **Colors & Theme**:  
+  Edit the CSS variables at the top of `index.html` to adjust colors for both light and dark modes.
+- **Table Columns**:  
+  You can add or remove columns by editing the table structure in `index.html`.
+
+## Performance Tips
+
+- For very large datasets (hundreds of rows), dark mode transitions are optimized to avoid lag.
+- If you experience slowness, try disabling transitions for table rows/cells in the CSS.
+
+## License
+
+MIT 
