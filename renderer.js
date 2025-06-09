@@ -225,7 +225,7 @@ function updateSortIndicators() {
         const idx = sortOrder.findIndex(s => s.column === col);
         if (idx !== -1) {
             const dir = sortOrder[idx].direction === 'desc' ? '↓' : '↑';
-            th.innerHTML += ` <span style="font-size:0.9em;color:#6366f1;">${idx+1}${dir}</span>`;
+            th.innerHTML += ` <span class="sort-indicator" style="font-size:0.9em; color:#00FF01;">${idx+1}${dir}</span>`;
         }
     });
 } 
