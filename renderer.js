@@ -2,7 +2,7 @@ const { ipcRenderer } = require('electron');
 
 let items = [];
 let rolimonsData = null;
-let currentSort = { column: 'ratio', direction: 'desc' };
+let sortOrder = [{ column: 'ratio', direction: 'desc' }]; // default
 let processedItems = []; // Cache for processed items
 
 // Modal logic
@@ -101,50 +101,13 @@ function parseRAP(rapStr) {
     return Math.round(num * mult);
 }
 
-// Demand and Trend mappings
-const DEMAND_MAP = {
-    '-1': { label: 'None', color: '#bbb' },
-    '0': { label: 'Terrible', color: '#e57373' },
-    '1': { label: 'Low', color: '#ffb74d' },
-    '2': { label: 'Normal', color: '#fff176' },
-    '3': { label: 'High', color: '#81c784' },
-    '4': { label: 'Amazing', color: '#64b5f6' }
-};
-const TREND_MAP = {
-    '-1': { label: 'None', color: '#bbb' },
-    '0': { label: 'Lowering', color: '#e57373' },
-    '1': { label: 'Unstable', color: '#ffb74d' },
-    '2': { label: 'Stable', color: '#81c784' },
-    '3': { label: 'Raising', color: '#64b5f6' },
-    '4': { label: 'Fluctuating', color: '#fff176' }
-};
-
 // Process all items with Rolimons data
 function processItems() {
-    processedItems = items.map(item => {
-        const details = getRolimonsDetails(item.name);
-        return {
-            ...item,
-            ratio: item.price ? item.rap / item.price : 0,
-            projected: isProjected(item.name),
-            demand: details.demand,
-            trend: details.trend
-        };
-    });
-}
-
-function getRolimonsDetails(itemName) {
-    if (!rolimonsData) return { demand: -1, trend: -1 };
-    const normName = normalizeName(itemName);
-    for (const item of Object.values(rolimonsData)) {
-        if (normalizeName(item[0]) === normName) {
-            return {
-                demand: item[5],
-                trend: item[6]
-            };
-        }
-    }
-    return { demand: -1, trend: -1 };
+    processedItems = items.map(item => ({
+        ...item,
+        ratio: item.price ? item.rap / item.price : 0,
+        projected: isProjected(item.name)
+    }));
 }
 
 // Update the table with filtered items
@@ -160,50 +123,48 @@ function updateTable() {
         item.price >= minPrice
     );
 
-    // Always sort projected items to the bottom, then by selected column
+    // Always sort projected items to the bottom, then by selected columns (multi-column sort)
     filteredItems.sort((a, b) => {
-        if (a.projected !== b.projected) {
-            return a.projected ? 1 : -1;
+        if (a.projected !== b.projected) return a.projected ? 1 : -1;
+        for (const sort of sortOrder) {
+            const multiplier = sort.direction === 'desc' ? -1 : 1;
+            let cmp = 0;
+            if (sort.column === 'ratio') cmp = multiplier * (a.ratio - b.ratio);
+            else if (sort.column === 'name') cmp = multiplier * a.name.localeCompare(b.name);
+            else cmp = multiplier * (a[sort.column] - b[sort.column]);
+            if (cmp !== 0) return cmp;
         }
-        const multiplier = currentSort.direction === 'desc' ? -1 : 1;
-        if (currentSort.column === 'ratio') {
-            return multiplier * (a.ratio - b.ratio);
-        } else if (currentSort.column === 'name') {
-            return multiplier * a.name.localeCompare(b.name);
-        } else {
-            return multiplier * (a[currentSort.column] - b[currentSort.column]);
-        }
+        return 0;
     });
 
     const tbody = document.getElementById('itemsBody');
     tbody.innerHTML = '';
 
-    filteredItems.forEach((item, idx) => {
+    if (filteredItems.length === 0) {
         const row = document.createElement('tr');
-        // Color code the best item (first row)
-        if (idx === 0) {
-            row.style.background = '#e3ffe6';
-            row.style.fontWeight = 'bold';
-        }
-        // Demand and Trend coloring
-        const demandInfo = DEMAND_MAP[item.demand] || DEMAND_MAP['-1'];
-        const trendInfo = TREND_MAP[item.trend] || TREND_MAP['-1'];
-        row.innerHTML = `
-            <td>
-                ${item.name}
-                ${item.projected ? ' ⚠️' : ''}
-            </td>
-            <td>$${item.price.toLocaleString()}</td>
-            <td>$${item.rap.toLocaleString()}</td>
-            <td>${item.ratio.toFixed(2)}</td>
-            <td style="color:${demandInfo.color}">${demandInfo.label}</td>
-            <td style="color:${trendInfo.color}">${trendInfo.label}</td>
-        `;
+        const td = document.createElement('td');
+        td.colSpan = 4;
+        td.textContent = 'No items match your filters.';
+        td.style.textAlign = 'center';
+        row.appendChild(td);
         tbody.appendChild(row);
-    });
-
-    document.getElementById('status').textContent = 
-        `Showing ${filteredItems.length} items`;
+    } else {
+        filteredItems.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>
+                    ${item.name}
+                    ${item.projected ? ' ⚠️' : ''}
+                </td>
+                <td>$${item.price.toLocaleString()}</td>
+                <td>$${item.rap.toLocaleString()}</td>
+                <td>${item.ratio.toFixed(2)}</td>
+            `;
+            tbody.appendChild(row);
+        });
+    }
+    document.getElementById('status').textContent = `Showing ${filteredItems.length} items`;
+    updateSortIndicators();
 }
 
 // Event Listeners
@@ -230,16 +191,41 @@ processPasteBtn.addEventListener('click', async () => {
     rawPaste.value = '';
 });
 
-// Handle sorting
-document.querySelectorAll('th[data-sort]').forEach(th => {
-    th.addEventListener('click', () => {
+// Update sorting logic to allow multi-column
+const ths = document.querySelectorAll('th[data-sort]');
+ths.forEach(th => {
+    th.addEventListener('click', (e) => {
         const column = th.dataset.sort;
-        if (currentSort.column === column) {
-            currentSort.direction = currentSort.direction === 'desc' ? 'asc' : 'desc';
+        const existing = sortOrder.find(s => s.column === column);
+        if (e.ctrlKey || e.metaKey) {
+            // Ctrl+Click (or Cmd+Click on Mac): add or toggle direction in sortOrder
+            if (existing) {
+                existing.direction = existing.direction === 'desc' ? 'asc' : 'desc';
+            } else {
+                sortOrder.push({ column, direction: 'desc' });
+            }
         } else {
-            currentSort.column = column;
-            currentSort.direction = 'desc';
+            // Regular click: set as primary sort, reset others
+            if (existing) {
+                existing.direction = existing.direction === 'desc' ? 'asc' : 'desc';
+                sortOrder = [existing];
+            } else {
+                sortOrder = [{ column, direction: 'desc' }];
+            }
         }
         updateTable();
+        updateSortIndicators();
     });
-}); 
+});
+
+function updateSortIndicators() {
+    ths.forEach(th => {
+        const col = th.dataset.sort;
+        th.innerHTML = th.textContent.replace(/\s*[↑↓\d]*$/, ''); // Remove old indicators
+        const idx = sortOrder.findIndex(s => s.column === col);
+        if (idx !== -1) {
+            const dir = sortOrder[idx].direction === 'desc' ? '↓' : '↑';
+            th.innerHTML += ` <span style="font-size:0.9em;color:#6366f1;">${idx+1}${dir}</span>`;
+        }
+    });
+} 

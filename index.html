@@ -3,103 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <title>RAP Deal Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <style>
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
-            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-            background: #f8fafc;
-            color: #222;
+            font-family: 'JetBrains Mono', 'Fira Mono', 'Menlo', 'Consolas', monospace;
+            background: #fafbfc;
+            min-height: 100vh;
         }
         body {
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
         }
-        header {
-            padding: 40px 0 10px 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.6rem;
-            font-weight: 700;
-            margin: 0;
-            letter-spacing: -1px;
-        }
-        .controls {
-            display: flex;
-            justify-content: center;
-            gap: 16px;
-            margin: 0 0 24px 0;
-        }
-        .controls input {
-            padding: 12px 14px;
-            border: 1px solid #e5e7eb;
-            border-radius: 8px;
-            font-size: 1rem;
+        .main-card {
             background: #fff;
-            transition: border 0.2s;
+            border-radius: 20px;
+            box-shadow: 0 2px 16px rgba(40, 40, 60, 0.07);
+            margin-top: 64px;
+            padding: 48px 40px 36px 40px;
+            max-width: 1000px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
         }
-        .controls input:focus {
-            border: 1.5px solid #6366f1;
-            outline: none;
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
         }
-        .controls button {
-            padding: 12px 24px;
+        .header button {
+            padding: 12px 22px;
             border: none;
-            border-radius: 8px;
-            background: #6366f1;
+            border-radius: 10px;
+            background: #222;
             color: #fff;
             font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
+            box-shadow: 0 1px 4px rgba(40,40,60,0.04);
             transition: background 0.2s, box-shadow 0.2s;
-            box-shadow: 0 2px 8px rgba(99,102,241,0.08);
+        }
+        .header button:hover {
+            background: #444;
+        }
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 700;
+            margin: 0 0 0 0;
+            letter-spacing: -1px;
+            color: #181818;
+        }
+        .controls {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-bottom: 28px;
+            flex-wrap: wrap;
+        }
+        .controls input {
+            padding: 12px 16px;
+            border: 1px solid #ececec;
+            border-radius: 10px;
+            font-size: 1rem;
+            background: #f6f6f6;
+            transition: border 0.2s;
+            min-width: 120px;
+            box-shadow: none;
+        }
+        .controls input:focus {
+            border: 1.5px solid #bdbdbd;
+            outline: none;
+        }
+        .controls button {
+            padding: 12px 22px;
+            border: none;
+            border-radius: 10px;
+            background: #222;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 1px 4px rgba(40,40,60,0.04);
+            transition: background 0.2s, box-shadow 0.2s;
         }
         .controls button:hover {
-            background: #4f46e5;
+            background: #444;
         }
         #status {
             text-align: center;
-            margin-bottom: 10px;
-            color: #666;
+            margin-bottom: 16px;
+            color: #888;
             font-size: 1.05rem;
+        }
+        .table-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 1px 8px rgba(40,40,60,0.04);
+            padding: 0;
+        }
+        #sortTip {
+            text-align:center;
+            color:#bdbdbd;
+            font-size:0.98rem;
+            margin-bottom:8px;
         }
         table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0;
-            background: #fff;
-            margin: 0 auto;
-            box-shadow: 0 2px 16px rgba(0,0,0,0.04);
-            border-radius: 16px;
-            overflow: hidden;
+            background: transparent;
         }
         th, td {
-            padding: 18px 20px;
+            padding: 14px 16px;
             text-align: left;
-            font-size: 1.08rem;
+            font-size: 1.05rem;
         }
         th {
-            background: #f3f4f6;
-            font-weight: 700;
-            border-bottom: 1.5px solid #e5e7eb;
+            background: #fafbfc;
+            font-weight: 600;
+            border-bottom: 1px solid #ececec;
             cursor: pointer;
             user-select: none;
             transition: background 0.2s;
+            color: #222;
         }
         th:hover {
-            background: #e0e7ff;
+            background: #f2f2f2;
         }
         tr:not(:last-child) td {
-            border-bottom: 1px solid #f1f1f1;
+            border-bottom: 1px solid #f0f0f0;
         }
         tr {
             transition: background 0.15s;
         }
         tr:hover {
-            background: #f9fafb;
+            background: #f7f7fa;
         }
         /* Modal styles */
         .modal {
@@ -111,36 +156,38 @@
             width: 100vw;
             height: 100vh;
             overflow: auto;
-            background: rgba(0,0,0,0.25);
+            background: rgba(0,0,0,0.10);
             justify-content: center;
             align-items: center;
         }
         .modal-content {
             background: #fff;
-            padding: 32px 24px 24px 24px;
-            border-radius: 12px;
-            max-width: 520px;
+            padding: 28px 18px 18px 18px;
+            border-radius: 10px;
+            max-width: 420px;
             width: 90vw;
-            box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
             display: flex;
             flex-direction: column;
             align-items: stretch;
         }
         .modal-content h2 {
             margin-top: 0;
-            margin-bottom: 16px;
-            font-size: 1.4rem;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
             font-weight: 600;
+            color: #181818;
         }
         .modal-content textarea {
-            width: 100%;
-            min-height: 180px;
+            width: 95%;
+            min-height: 120px;
             font-size: 1rem;
-            padding: 12px;
-            border-radius: 8px;
-            border: 1px solid #e5e7eb;
-            margin-bottom: 18px;
+            padding: 10px;
+            border-radius: 7px;
+            border: 1px solid #ececec;
+            margin-bottom: 14px;
             resize: vertical;
+            background: #fafbfc;
         }
         .modal-content button {
             margin-top: 0;
@@ -148,42 +195,64 @@
         }
         .modal-close {
             position: absolute;
-            right: 24px;
-            top: 18px;
+            right: 18px;
+            top: 12px;
             background: none;
             border: none;
-            font-size: 1.5rem;
-            color: #888;
+            font-size: 1.3rem;
+            color: #bbb;
             cursor: pointer;
         }
         @media (max-width: 900px) {
-            th, td { padding: 12px 8px; font-size: 0.98rem; }
-            .controls { flex-direction: column; gap: 10px; }
+            .main-card { padding: 10px 2px; }
+            th, td { padding: 10px 6px; font-size: 0.97rem; }
+            .controls { flex-direction: column; gap: 8px; }
+        }
+        #minimalClock {
+            width: 100%;
+            text-align: center;
+            font-family: 'JetBrains Mono', 'Fira Mono', 'Menlo', 'Consolas', monospace;
+            font-size: 1.45rem;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            color: #111;
+            margin-top: 32px;
+            margin-bottom: 18px;
+            user-select: none;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>RAP Deal Finder</h1>
-    </header>
-    <div class="controls">
-        <input type="number" id="minPrice" placeholder="Min Price" value="">
-        <input type="number" id="budget" placeholder="Max Price" value="">
-        <input type="number" id="minRap" placeholder="Min RAP" value="">
-        <button id="pasteBtn">Paste Website Data</button>
+    <div id="minimalClock"></div>
+    <div class="main-card">
+        <div class="header">
+            <h1>rapfinder</h1>
+            <button id="pasteBtn">Paste website data</button>
+        </div>
+        <div class="controls">
+            <input type="number" id="minPrice" placeholder="Min Price" value="">
+            <input type="number" id="budget" placeholder="Max Price" value="">
+            <input type="number" id="minRap" placeholder="Min RAP" value="">
+            
+        </div>
+        <div id="status">No items loaded</div>
+        <div class="table-card">
+            <div id="sortTip" style="text-align:center; color:#888; font-size:1rem; margin-bottom:8px;">
+                Tip: Ctrl+Click columns to sort by multiple columns
+            </div>
+            <table id="itemsTable">
+                <thead>
+                    <tr>
+                        <th data-sort="name">Name</th>
+                        <th data-sort="price">Price</th>
+                        <th data-sort="rap">RAP</th>
+                        <th data-sort="ratio">Value Ratio</th>
+                    </tr>
+                </thead>
+                <tbody id="itemsBody"></tbody>
+            </table>
+        </div>
     </div>
-    <div id="status">No items loaded</div>
-    <table id="itemsTable">
-        <thead>
-            <tr>
-                <th data-sort="name">Name</th>
-                <th data-sort="price">Price</th>
-                <th data-sort="rap">RAP</th>
-                <th data-sort="ratio">Value Ratio</th>
-            </tr>
-        </thead>
-        <tbody id="itemsBody"></tbody>
-    </table>
     <div class="modal" id="pasteModal">
         <div class="modal-content">
             <button class="modal-close" id="closeModalBtn">&times;</button>
@@ -193,5 +262,20 @@
         </div>
     </div>
     <script src="renderer.js"></script>
+    <script>
+        function updateMinimalClock() {
+            const now = new Date();
+            let h = now.getHours();
+            const m = now.getMinutes();
+            const s = now.getSeconds();
+            const ampm = h >= 12 ? 'PM' : 'AM';
+            h = h % 12;
+            h = h ? h : 12;
+            const pad = n => n.toString().padStart(2, '0');
+            document.getElementById('minimalClock').textContent = `${pad(h)}:${pad(m)}:${pad(s)} ${ampm}`;
+        }
+        setInterval(updateMinimalClock, 1000);
+        updateMinimalClock();
+    </script>
 </body>
 </html> 
