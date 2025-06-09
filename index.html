@@ -4,91 +4,194 @@
     <meta charset="UTF-8">
     <title>RAP Deal Finder</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        html, body {
+            height: 100%;
             margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
+            padding: 0;
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            background: #f8fafc;
+            color: #222;
         }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            padding: 40px 0 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.6rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -1px;
         }
         .controls {
-            margin-bottom: 20px;
             display: flex;
-            gap: 10px;
-            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin: 0 0 24px 0;
         }
         .controls input {
-            padding: 8px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            width: 120px;
+            padding: 12px 14px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            background: #fff;
+            transition: border 0.2s;
         }
-        button {
-            padding: 8px 16px;
-            background-color: #4CAF50;
-            color: white;
+        .controls input:focus {
+            border: 1.5px solid #6366f1;
+            outline: none;
+        }
+        .controls button {
+            padding: 12px 24px;
             border: none;
-            border-radius: 4px;
+            border-radius: 8px;
+            background: #6366f1;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
             cursor: pointer;
+            transition: background 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 8px rgba(99,102,241,0.08);
         }
-        button:hover {
-            background-color: #45a049;
+        .controls button:hover {
+            background: #4f46e5;
+        }
+        #status {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #666;
+            font-size: 1.05rem;
         }
         table {
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: #fff;
+            margin: 0 auto;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+            border-radius: 16px;
+            overflow: hidden;
         }
         th, td {
-            padding: 12px;
+            padding: 18px 20px;
             text-align: left;
-            border-bottom: 1px solid #ddd;
+            font-size: 1.08rem;
         }
         th {
-            background-color: #f8f9fa;
+            background: #f3f4f6;
+            font-weight: 700;
+            border-bottom: 1.5px solid #e5e7eb;
             cursor: pointer;
+            user-select: none;
+            transition: background 0.2s;
         }
         th:hover {
-            background-color: #e9ecef;
+            background: #e0e7ff;
         }
-        .best-deal {
-            background-color: #e6ffe6;
+        tr:not(:last-child) td {
+            border-bottom: 1px solid #f1f1f1;
         }
-        #status {
-            margin-top: 10px;
-            color: #666;
+        tr {
+            transition: background 0.15s;
+        }
+        tr:hover {
+            background: #f9fafb;
+        }
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: auto;
+            background: rgba(0,0,0,0.25);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background: #fff;
+            padding: 32px 24px 24px 24px;
+            border-radius: 12px;
+            max-width: 520px;
+            width: 90vw;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .modal-content h2 {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        .modal-content textarea {
+            width: 100%;
+            min-height: 180px;
+            font-size: 1rem;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+            margin-bottom: 18px;
+            resize: vertical;
+        }
+        .modal-content button {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .modal-close {
+            position: absolute;
+            right: 24px;
+            top: 18px;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: #888;
+            cursor: pointer;
+        }
+        @media (max-width: 900px) {
+            th, td { padding: 12px 8px; font-size: 0.98rem; }
+            .controls { flex-direction: column; gap: 10px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>RAP Deal Finder</h1>
-        <div class="controls">
-            <input type="number" id="budget" placeholder="Max Budget" value="1000">
-            <input type="number" id="minRap" placeholder="Min RAP" value="0">
-            <input type="number" id="minPrice" placeholder="Min Price" value="0">
-            <button id="searchBtn">Search</button>
-            <button id="loadBtn">Load items.txt</button>
+    </header>
+    <div class="controls">
+        <input type="number" id="budget" placeholder="Max Budget" value="1000">
+        <input type="number" id="minRap" placeholder="Min RAP" value="0">
+        <input type="number" id="minPrice" placeholder="Min Price" value="0">
+        <button id="searchBtn">Apply Filters</button>
+        <button id="pasteBtn">Paste Website Data</button>
+    </div>
+    <div id="status">No items loaded</div>
+    <table id="itemsTable">
+        <thead>
+            <tr>
+                <th data-sort="name">Name</th>
+                <th data-sort="price">Price</th>
+                <th data-sort="rap">RAP</th>
+                <th data-sort="ratio">Value Ratio</th>
+            </tr>
+        </thead>
+        <tbody id="itemsBody"></tbody>
+    </table>
+    <div class="modal" id="pasteModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModalBtn">&times;</button>
+            <h2>Paste Website Data</h2>
+            <textarea id="rawPaste" placeholder="Paste the copied website text here..."></textarea>
+            <button id="processPasteBtn">Process</button>
         </div>
-        <div id="status">No items loaded</div>
-        <table id="itemsTable">
-            <thead>
-                <tr>
-                    <th data-sort="name">Name</th>
-                    <th data-sort="price">Price</th>
-                    <th data-sort="rap">RAP</th>
-                    <th data-sort="ratio">Value Ratio</th>
-                </tr>
-            </thead>
-            <tbody id="itemsBody"></tbody>
-        </table>
     </div>
     <script src="renderer.js"></script>
 </body>

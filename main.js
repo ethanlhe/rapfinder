@@ -8,7 +8,8 @@ function createWindow () {
     height: 800,
     webPreferences: {
       nodeIntegration: true,
-      contextIsolation: false
+      contextIsolation: false,
+      webSecurity: false // Required for fetch to work with external APIs
     }
   })
 

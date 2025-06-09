@@ -1,34 +1,2160 @@
-Rubber Duckie
-Rubber Duckie
+site-logotype
+Market
+
+Support
+
+Affiliate
+
+Claims
+
+$0.00
+
+Wallet
+Sell
+Dashboard
+List Items/Funds
+Sales History
+Gift Card Catalog
+Subscriptions
+Chargeback Center
+Your Shop
+Transactions
+Settings
+Logout
+Limiteds
+Counter-Strike 2
+Dota 2
+Rust
+Rust
+Our customers say
+
+trustpilot-stars
+4.2 out of 5 based on 531 reviews
+
+trustpilot-logo
+Recently sold
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Game
+Limiteds
+CS2
+Dota 2
+Rust
+In Game
+Filters
+Price
+
+Min
+Max
+Payment Method
+
+
+All
+
+
+Paypal
+
+
+Card
+
+Sort
+
+
+Rap (High to Low)
+
+
+Rap (Low to High)
+
+
+Price (High to Low)
+
+
+Price (Low to High)
+
+
+Rate (Low to High)
+
+Reset Filters
+Search
+Minimized View
+
+Super Super Happy Face
+Super Super Happy Face
 
 RAP
-12K
+320K
 Price
-$43
+$1,435
 
-Green Banded Top Hat
-Green Banded Top Hat
+Blue Queen of the Night
+Blue Queen of the Night
 
 RAP
-12K
+150K
 Price
-$46
+$591
 
-Neon Green Beautiful Hair
-Neon Green Beautiful Hair
+Blizzard Beast Mode
+Blizzard Beast Mode
 
 RAP
-10K
+135K
 Price
-$44
+$512
 
-Blue Top Hat with White Band
-Blue Top Hat with White Band
+Madness Face
+Madness Face
 
 RAP
-9K
+100K
 Price
-$38
+$457
+
+The Ice Skull of Nevermoor
+The Ice Skull of Nevermoor
+
+RAP
+85K
+Price
+$445
+
+Teal Sparkle Time Fedora
+Teal Sparkle Time Fedora
+
+RAP
+4.3M
+Price
+$21,200
+
+White Sparkle Time Fedora
+White Sparkle Time Fedora
+
+RAP
+3M
+Price
+$19,610
+
+The Void Star
+The Void Star
+
+RAP
+2.5M
+Price
+$11,200
+
+Frozen Horns of the Frigid Planes
+Frozen Horns of the Frigid Planes
+
+RAP
+1.9M
+Price
+$7,409
+
+Fiery Horns of the Netherworld
+Fiery Horns of the Netherworld
+
+RAP
+1.9M
+Price
+$6,413
+
+Sparkle Time Fedora
+Sparkle Time Fedora
+
+RAP
+1.8M
+Price
+$7,314
+
+Poisoned Horns of the Toxic Wasteland
+Poisoned Horns of the Toxic Wasteland
+
+RAP
+1.4M
+Price
+$5,936
+
+Subarctic Commando
+Subarctic Commando
+
+RAP
+1.1M
+Price
+$8,162
+
+Eyes of Azurewrath
+Eyes of Azurewrath
+
+RAP
+1.1M
+Price
+$8,480
+
+Clockwork's Headphones
+Clockwork's Headphones
+
+RAP
+850K
+Price
+$3,000
+
+Brighteyes' Cola Hat
+Brighteyes' Cola Hat
+
+RAP
+720K
+Price
+$2,894
+
+Yum!
+Yum!
+
+RAP
+720K
+Price
+$2,650
+
+): Green Sidewinder
+): Green Sidewinder
+
+RAP
+720K
+Price
+$2,968
+
+Telamon's Chicken Suit
+Telamon's Chicken Suit
+
+RAP
+690K
+Price
+$2,649
+
+WC Ultimates: Sugilite Satisfaction
+WC Ultimates: Sugilite Satisfaction
+
+RAP
+570K
+Price
+$3,392
+
+The Classic Fedora
+The Classic Fedora
+
+RAP
+560K
+Price
+$2,178
+
+The Classic Fedora
+The Classic Fedora
+
+RAP
+560K
+Price
+$1,887
+
+Silver King of the Night 
+Silver King of the Night
+
+RAP
+530K
+Price
+$2,299
+
+Silver King of the Night 
+Silver King of the Night
+
+RAP
+530K
+Price
+$1,717
+
+Ice Valkyrie
+Ice Valkyrie
+
+RAP
+450K
+Price
+$1,961
+
+Ice Valkyrie
+Ice Valkyrie
+
+RAP
+450K
+Price
+$1,426
+
+Twin Kodachi
+Twin Kodachi
+
+RAP
+400K
+Price
+$1,855
+
+Dark Star Top Hat
+Dark Star Top Hat
+
+RAP
+340K
+Price
+$736
+
+Dark Star Top Hat
+Dark Star Top Hat
+
+RAP
+340K
+Price
+$551
+
+Valkyrie Helm
+Valkyrie Helm
+
+RAP
+340K
+Price
+$1,400
+
+Valkyrie Helm
+Valkyrie Helm
+
+RAP
+340K
+Price
+$1,060
+
+Al Capwn
+Al Capwn
+
+RAP
+340K
+Price
+$1,749
+
+Gold King of the Night
+Gold King of the Night
+
+RAP
+320K
+Price
+$1,349
+
+Super Super Happy Face
+Super Super Happy Face
+
+RAP
+320K
+Price
+$1,226
+
+Super Super Happy Face
+Super Super Happy Face
+
+RAP
+320K
+Price
+$1,071
+
+Adurite King of the Night 
+Adurite King of the Night
+
+RAP
+310K
+Price
+$1,214
+
+Soviet Ushanka
+Soviet Ushanka
+
+RAP
+300K
+Price
+$1,855
+
+WC Ultimates: Citrine Celebration
+WC Ultimates: Citrine Celebration
+
+RAP
+300K
+Price
+$1,484
+
+BFF Key
+BFF Key
+
+RAP
+290K
+Price
+$1,219
+
+WC Ultimates: Peridot Panic
+WC Ultimates: Peridot Panic
+
+RAP
+290K
+Price
+$2,650
+
+Silver Punk Face
+Silver Punk Face
+
+RAP
+280K
+Price
+$1,301
+
+Silver Punk Face
+Silver Punk Face
+
+RAP
+280K
+Price
+$965
+
+Amethyst Periastron Kappa
+Amethyst Periastron Kappa
+
+RAP
+270K
+Price
+$2,756
+
+Pink Queen of the Night
+Pink Queen of the Night
+
+RAP
+270K
+Price
+$1,207
+
+Pink Queen of the Night
+Pink Queen of the Night
+
+RAP
+270K
+Price
+$901
+
+Headdress of Aken-Aten, the Sun King
+Headdress of Aken-Aten, the Sun King
+
+RAP
+250K
+Price
+$1,999
+
+Prankster
+Prankster
+
+RAP
+240K
+Price
+$1,007
+
+Prankster
+Prankster
+
+RAP
+240K
+Price
+$784
+
+SFOTH IV Crown of Fire
+SFOTH IV Crown of Fire
+
+RAP
+240K
+Price
+$2,650
+
+The Dread Visage of xMaximusx
+The Dread Visage of xMaximusx
+
+RAP
+220K
+Price
+$1,060
+
+Punk Face
+Punk Face
+
+RAP
+220K
+Price
+$930
+
+Punk Face
+Punk Face
+
+RAP
+220K
+Price
+$689
+
+Fuchsia Fantastique
+Fuchsia Fantastique
+
+RAP
+190K
+Price
+$1,113
+
+Scissors
+Scissors
+
+RAP
+180K
+Price
+$612
+
+Scissors
+Scissors
+
+RAP
+180K
+Price
+$591
+
+Fluffy Unicorn
+Fluffy Unicorn
+
+RAP
+180K
+Price
+$767
+
+Fluffy Unicorn
+Fluffy Unicorn
+
+RAP
+180K
+Price
+$689
+
+Black Iron Horns
+Black Iron Horns
+
+RAP
+180K
+Price
+$713
+
+Black Iron Horns
+Black Iron Horns
+
+RAP
+180K
+Price
+$591
+
+Silver Emperor of the Night
+Silver Emperor of the Night
+
+RAP
+180K
+Price
+$632
+
+Silver Emperor of the Night
+Silver Emperor of the Night
+
+RAP
+180K
+Price
+$530
+
+Royal Agate Egg of Beautiful Dreams
+Royal Agate Egg of Beautiful Dreams
+
+RAP
+170K
+Price
+$925
+
+Royal Agate Egg of Beautiful Dreams
+Royal Agate Egg of Beautiful Dreams
+
+RAP
+170K
+Price
+$689
+
+Immortal Sword - Wicked Heart
+Immortal Sword - Wicked Heart
+
+RAP
+170K
+Price
+$901
+
+Immortal Sword - Wicked Heart
+Immortal Sword - Wicked Heart
+
+RAP
+170K
+Price
+$742
+
+Viridian Domino Crown
+Viridian Domino Crown
+
+RAP
+170K
+Price
+$876
+
+Viridian Domino Crown
+Viridian Domino Crown
+
+RAP
+170K
+Price
+$649
+
+JJ5x5's White Top Hat
+JJ5x5's White Top Hat
+
+RAP
+160K
+Price
+$668
+
+JJ5x5's White Top Hat
+JJ5x5's White Top Hat
+
+RAP
+160K
+Price
+$530
+
+The Dog Whisperer
+The Dog Whisperer
+
+RAP
+160K
+Price
+$652
+
+The Dog Whisperer
+The Dog Whisperer
+
+RAP
+160K
+Price
+$510
+
+Purple Queen of the Night
+Purple Queen of the Night
+
+RAP
+160K
+Price
+$730
+
+Purple Queen of the Night
+Purple Queen of the Night
+
+RAP
+160K
+Price
+$543
+
+Dominus Formidulosus
+Dominus Formidulosus
+
+RAP
+160K
+Price
+$638
+
+Dominus Formidulosus
+Dominus Formidulosus
+
+RAP
+160K
+Price
+$477
+
+Beast Mode
+Beast Mode
+
+RAP
+150K
+Price
+$643
+
+Beast Mode
+Beast Mode
+
+RAP
+150K
+Price
+$485
+
+Blue Queen of the Night
+Blue Queen of the Night
+
+RAP
+150K
+Price
+$587
+
+Blue Queen of the Night
+Blue Queen of the Night
+
+RAP
+150K
+Price
+$443
+
+From the Vault: Kawaii Cat 
+From the Vault: Kawaii Cat
+
+RAP
+145K
+Price
+$595
+
+From the Vault: Kawaii Cat 
+From the Vault: Kawaii Cat
+
+RAP
+145K
+Price
+$447
+
+Death Metal Headphones
+Death Metal Headphones
+
+RAP
+135K
+Price
+$573
+
+Death Metal Headphones
+Death Metal Headphones
+
+RAP
+135K
+Price
+$429
+
+Blizzard Beast Mode
+Blizzard Beast Mode
+
+RAP
+135K
+Price
+$509
+
+Blizzard Beast Mode
+Blizzard Beast Mode
+
+RAP
+135K
+Price
+$373
+
+Blue Clockwork Headphones
+Blue Clockwork Headphones
+
+RAP
+130K
+Price
+$503
+
+Blue Clockwork Headphones
+Blue Clockwork Headphones
+
+RAP
+130K
+Price
+$444
+
+Troublemaker
+Troublemaker
+
+RAP
+120K
+Price
+$636
+
+Troublemaker
+Troublemaker
+
+RAP
+120K
+Price
+$484
+
+Winter Fairy
+Winter Fairy
+
+RAP
+120K
+Price
+$638
+
+Winter Fairy
+Winter Fairy
+
+RAP
+120K
+Price
+$477
+
+Stickmasterluke's Peanut Butter Sparkle Time
+Stickmasterluke's Peanut Butter Sparkle Time
+
+RAP
+120K
+Price
+$478
+
+Stickmasterluke's Peanut Butter Sparkle Time
+Stickmasterluke's Peanut Butter Sparkle Time
+
+RAP
+120K
+Price
+$394
+
+Playful Vampire
+Playful Vampire
+
+RAP
+115K
+Price
+$504
+
+Playful Vampire
+Playful Vampire
+
+RAP
+115K
+Price
+$364
+
+Dark Spellbook of the Forgotten
+Dark Spellbook of the Forgotten
+
+RAP
+114K
+Price
+$403
+
+Dark Spellbook of the Forgotten
+Dark Spellbook of the Forgotten
+
+RAP
+114K
+Price
+$339
+
+Gold Emperor of the Night
+Gold Emperor of the Night
+
+RAP
+110K
+Price
+$459
+
+Pretty Pretty Princess
+Pretty Pretty Princess
+
+RAP
+105K
+Price
+$464
+
+Pretty Pretty Princess
+Pretty Pretty Princess
+
+RAP
+105K
+Price
+$334
+
+Pink Galaxy Gaze
+Pink Galaxy Gaze
+
+RAP
+105K
+Price
+$403
+
+Pink Galaxy Gaze
+Pink Galaxy Gaze
+
+RAP
+105K
+Price
+$345
+
+DJ Money
+DJ Money
+
+RAP
+100K
+Price
+$721
+
+Madness Face
+Madness Face
+
+RAP
+100K
+Price
+$395
+
+Madness Face
+Madness Face
+
+RAP
+100K
+Price
+$327
+
+Americat the Beautiful
+Americat the Beautiful
+
+RAP
+92K
+Price
+$133
+
+Americat the Beautiful
+Americat the Beautiful
+
+RAP
+92K
+Price
+$99
+
+From the Vault: Alpaca Plushie
+From the Vault: Alpaca Plushie
+
+RAP
+90K
+Price
+$302
+
+From the Vault: Alpaca Plushie
+From the Vault: Alpaca Plushie
+
+RAP
+90K
+Price
+$279
+
+The Ice Skull of Nevermoor
+The Ice Skull of Nevermoor
+
+RAP
+85K
+Price
+$318
+
+The Ice Skull of Nevermoor
+The Ice Skull of Nevermoor
+
+RAP
+85K
+Price
+$318
+
+Green Queen of the Night
+Green Queen of the Night
+
+RAP
+85K
+Price
+$363
+
+Green Queen of the Night
+Green Queen of the Night
+
+RAP
+85K
+Price
+$263
+
+Radioactive Beast Mode
+Radioactive Beast Mode
+
+RAP
+85K
+Price
+$360
+
+Radioactive Beast Mode
+Radioactive Beast Mode
+
+RAP
+85K
+Price
+$270
+
+Miss Scarlet
+Miss Scarlet
+
+RAP
+75K
+Price
+$331
+
+Miss Scarlet
+Miss Scarlet
+
+RAP
+75K
+Price
+$239
+
+From the Vault: Dozens of Dinosaurs
+From the Vault: Dozens of Dinosaurs
+
+RAP
+70K
+Price
+$261
+
+From the Vault: Dozens of Dinosaurs
+From the Vault: Dozens of Dinosaurs
+
+RAP
+70K
+Price
+$223
+
+Neon Chrome Glasses
+Neon Chrome Glasses
+
+RAP
+68K
+Price
+$147
+
+Neon Chrome Glasses
+Neon Chrome Glasses
+
+RAP
+68K
+Price
+$106
+
+Supa Fly Cap
+Supa Fly Cap
+
+RAP
+65K
+Price
+$265
+
+Supa Fly Cap
+Supa Fly Cap
+
+RAP
+65K
+Price
+$223
+
+Bubble Trouble
+Bubble Trouble
+
+RAP
+65K
+Price
+$261
+
+Bubble Trouble
+Bubble Trouble
+
+RAP
+65K
+Price
+$213
+
+Captain Steelshanks Recruiting Staff
+Captain Steelshanks Recruiting Staff
+
+RAP
+65K
+Price
+$249
+
+Captain Steelshanks Recruiting Staff
+Captain Steelshanks Recruiting Staff
+
+RAP
+65K
+Price
+$180
+
+Black Knight Helmet
+Black Knight Helmet
+
+RAP
+63K
+Price
+$265
+
+Brighteyes' Top Hat
+Brighteyes' Top Hat
+
+RAP
+60K
+Price
+$272
+
+Brighteyes' Top Hat
+Brighteyes' Top Hat
+
+RAP
+60K
+Price
+$254
+
+Blue Bubble Trouble
+Blue Bubble Trouble
+
+RAP
+60K
+Price
+$254
+
+Blue Bubble Trouble
+Blue Bubble Trouble
+
+RAP
+60K
+Price
+$212
+
+Violet Fang
+Violet Fang
+
+RAP
+60K
+Price
+$250
+
+Purple Bubble Trouble
+Purple Bubble Trouble
+
+RAP
+60K
+Price
+$217
+
+Purple Bubble Trouble
+Purple Bubble Trouble
+
+RAP
+60K
+Price
+$197
+
+Green Bubble Trouble
+Green Bubble Trouble
+
+RAP
+60K
+Price
+$255
+
+Green Bubble Trouble
+Green Bubble Trouble
+
+RAP
+60K
+Price
+$184
+
+zOMG Hat Selling!
+zOMG Hat Selling!
+
+RAP
+55K
+Price
+$188
+
+Elf Ears
+Elf Ears
+
+RAP
+55K
+Price
+$186
+
+Elf Ears
+Elf Ears
+
+RAP
+55K
+Price
+$171
+
+Immortal Sword: Vlad's Lament
+Immortal Sword: Vlad's Lament
+
+RAP
+55K
+Price
+$223
+
+Immortal Sword: Vlad's Lament
+Immortal Sword: Vlad's Lament
+
+RAP
+55K
+Price
+$164
+
+Supa Dupa Fly Cap
+Supa Dupa Fly Cap
+
+RAP
+55K
+Price
+$183
+
+Supa Dupa Fly Cap
+Supa Dupa Fly Cap
+
+RAP
+55K
+Price
+$170
+
+BIG: Silverthorn Antlers
+BIG: Silverthorn Antlers
+
+RAP
+55K
+Price
+$264
+
+BIG: Silverthorn Antlers
+BIG: Silverthorn Antlers
+
+RAP
+55K
+Price
+$191
+
+Azure Dragon's Magic Slayer
+Azure Dragon's Magic Slayer
+
+RAP
+54K
+Price
+$339
+
+Crimson Katana of the Unsetting Sun
+Crimson Katana of the Unsetting Sun
+
+RAP
+52K
+Price
+$212
+
+Crimson Katana of the Unsetting Sun
+Crimson Katana of the Unsetting Sun
+
+RAP
+52K
+Price
+$156
+
+From the Vault: Alligator Plushie
+From the Vault: Alligator Plushie
+
+RAP
+50K
+Price
+$263
+
+From the Vault: Alligator Plushie
+From the Vault: Alligator Plushie
+
+RAP
+50K
+Price
+$191
+
+Happy Time Magic Flower Hat
+Happy Time Magic Flower Hat
+
+RAP
+48K
+Price
+$371
+
+Doge Santa
+Doge Santa
+
+RAP
+48K
+Price
+$204
+
+8-Bit Dark Horns of Pwnage
+8-Bit Dark Horns of Pwnage
+
+RAP
+46K
+Price
+$170
+
+8-Bit Dark Horns of Pwnage
+8-Bit Dark Horns of Pwnage
+
+RAP
+46K
+Price
+$148
+
+Karlie’s Winter Krown
+Karlie’s Winter Krown
+
+RAP
+45K
+Price
+$171
+
+Blue Banded Top Hat
+Blue Banded Top Hat
+
+RAP
+45K
+Price
+$186
+
+Blue Banded Top Hat
+Blue Banded Top Hat
+
+RAP
+45K
+Price
+$159
+
+Korblox Ice Crystal Circlet
+Korblox Ice Crystal Circlet
+
+RAP
+45K
+Price
+$221
+
+Korblox Ice Crystal Circlet
+Korblox Ice Crystal Circlet
+
+RAP
+45K
+Price
+$159
+
+Donald P Sullivan - Gold Edition
+Donald P Sullivan - Gold Edition
+
+RAP
+45K
+Price
+$187
+
+Platinum and Sapphire Circlet of the Elven King
+Platinum and Sapphire Circlet of the Elven King
+
+RAP
+44K
+Price
+$133
+
+Scroll of Sevenless
+Scroll of Sevenless
+
+RAP
+43K
+Price
+$192
+
+Scroll of Sevenless
+Scroll of Sevenless
+
+RAP
+43K
+Price
+$138
+
+Blue Sparkle Time Bowler
+Blue Sparkle Time Bowler
+
+RAP
+43K
+Price
+$168
+
+Blue Sparkle Time Bowler
+Blue Sparkle Time Bowler
+
+RAP
+43K
+Price
+$121
+
+Princess Hat
+Princess Hat
+
+RAP
+42K
+Price
+$159
+
+Princess Hat
+Princess Hat
+
+RAP
+42K
+Price
+$134
+
+Ruby Starstone of the Federation
+Ruby Starstone of the Federation
+
+RAP
+42K
+Price
+$276
+
+Red, White, and Shaggy
+Red, White, and Shaggy
+
+RAP
+41K
+Price
+$165
+
+Red, White, and Shaggy
+Red, White, and Shaggy
+
+RAP
+41K
+Price
+$125
+
+The Red King
+The Red King
+
+RAP
+40K
+Price
+$186
+
+NVG360 Hawkeyes
+NVG360 Hawkeyes
+
+RAP
+40K
+Price
+$424
+
+Dr. Shamrock
+Dr. Shamrock
+
+RAP
+40K
+Price
+$200
+
+Beach Ball Head
+Beach Ball Head
+
+RAP
+40K
+Price
+$233
+
+Sapphire Drool
+Sapphire Drool
+
+RAP
+40K
+Price
+$186
+
+Dagger of Shattered Dimensions
+Dagger of Shattered Dimensions
+
+RAP
+39K
+Price
+$180
+
+Azure Pinstripe Fedora
+Azure Pinstripe Fedora
+
+RAP
+38K
+Price
+$161
+
+Azure Pinstripe Fedora
+Azure Pinstripe Fedora
+
+RAP
+38K
+Price
+$159
+
+Musica Infernus Dominator
+Musica Infernus Dominator
+
+RAP
+38K
+Price
+$186
+
+Bombastic Antlers
+Bombastic Antlers
+
+RAP
+38K
+Price
+$147
+
+Bombastic Antlers
+Bombastic Antlers
+
+RAP
+38K
+Price
+$140
+
+Teddy Bear Hat
+Teddy Bear Hat
+
+RAP
+38K
+Price
+$167
+
+Teddy Bear Hat
+Teddy Bear Hat
+
+RAP
+38K
+Price
+$120
+
+Scythe of Singularity
+Scythe of Singularity
+
+RAP
+38K
+Price
+$157
+
+Scythe of Singularity
+Scythe of Singularity
+
+RAP
+38K
+Price
+$154
+
+Golden Teapot of Pwnage
+Golden Teapot of Pwnage
+
+RAP
+38K
+Price
+$110
+
+Golden Teapot of Pwnage
+Golden Teapot of Pwnage
+
+RAP
+38K
+Price
+$104
+
+Golden Teapot of Pwnage
+Golden Teapot of Pwnage
+
+RAP
+38K
+Price
+$104
+
+Ceremonial Guard of the Archduke of the Federation
+Ceremonial Guard of the Archduke of the Federation
+
+RAP
+35K
+Price
+$148
+
+Captain's Flintlock
+Captain's Flintlock
+
+RAP
+35K
+Price
+$265
+
+The Bluesteel Bathelm
+The Bluesteel Bathelm
+
+RAP
+35K
+Price
+$148
+
+The Bluesteel Bathelm
+The Bluesteel Bathelm
+
+RAP
+35K
+Price
+$127
+
+Eagle Warrior
+Eagle Warrior
+
+RAP
+35K
+Price
+$212
+
+Rock N' Roll Necktie
+Rock N' Roll Necktie
+
+RAP
+34K
+Price
+$131
+
+Rock N' Roll Necktie
+Rock N' Roll Necktie
+
+RAP
+34K
+Price
+$94
+
+Wanderer Vampire Slayer
+Wanderer Vampire Slayer
+
+RAP
+34K
+Price
+$92
+
+Wanderer Vampire Slayer
+Wanderer Vampire Slayer
+
+RAP
+34K
+Price
+$92
+
+Flower Power
+Flower Power
+
+RAP
+34K
+Price
+$137
+
+The Bull
+The Bull
+
+RAP
+33K
+Price
+$140
+
+Steampunkometer
+Steampunkometer
+
+RAP
+33K
+Price
+$93
+
+Steampunkometer
+Steampunkometer
+
+RAP
+33K
+Price
+$93
+
+Vault Swordpack
+Vault Swordpack
+
+RAP
+33K
+Price
+$136
+
+Helm of the Secret Fire
+Helm of the Secret Fire
+
+RAP
+32K
+Price
+$142
+
+Helm of the Secret Fire
+Helm of the Secret Fire
+
+RAP
+32K
+Price
+$108
+
+Tentacles Junior
+Tentacles Junior
+
+RAP
+32K
+Price
+$121
+
+Neon Pink Top Hat
+Neon Pink Top Hat
+
+RAP
+32K
+Price
+$143
+
+Neon Pink Top Hat
+Neon Pink Top Hat
+
+RAP
+32K
+Price
+$102
+
+Catching Snowflakes
+Catching Snowflakes
+
+RAP
+32K
+Price
+$135
+
+Catching Snowflakes
+Catching Snowflakes
+
+RAP
+32K
+Price
+$98
+
+Enraged Monkey Droid
+Enraged Monkey Droid
+
+RAP
+32K
+Price
+$90
+
+Angelic
+Angelic
+
+RAP
+31K
+Price
+$111
+
+Angelic
+Angelic
+
+RAP
+31K
+Price
+$88
+
+Ye Olde Sea Captain
+Ye Olde Sea Captain
+
+RAP
+31K
+Price
+$135
+
+Ye Olde Sea Captain
+Ye Olde Sea Captain
+
+RAP
+31K
+Price
+$97
+
+Monarch Butterfly Smile 
+Monarch Butterfly Smile
+
+RAP
+30K
+Price
+$114
+
+Monarch Butterfly Smile 
+Monarch Butterfly Smile
+
+RAP
+30K
+Price
+$95
+
+Teal Mermaid Queen
+Teal Mermaid Queen
+
+RAP
+30K
+Price
+$139
+
+Snowflake Eyes
+Snowflake Eyes
+
+RAP
+30K
+Price
+$116
+
+Snowflake Eyes
+Snowflake Eyes
+
+RAP
+30K
+Price
+$96
+
+Bay Area Maker Top Hat 2014
+Bay Area Maker Top Hat 2014
+
+RAP
+30K
+Price
+$147
+
+Bay Area Maker Top Hat 2014
+Bay Area Maker Top Hat 2014
+
+RAP
+30K
+Price
+$106
+
+Iris Katana of Goldengrove Unleaving
+Iris Katana of Goldengrove Unleaving
+
+RAP
+29K
+Price
+$107
+
+Iris Katana of Goldengrove Unleaving
+Iris Katana of Goldengrove Unleaving
+
+RAP
+29K
+Price
+$106
+
+Zombie Friend Fred
+Zombie Friend Fred
+
+RAP
+29K
+Price
+$146
+
+Zombie Friend Fred
+Zombie Friend Fred
+
+RAP
+29K
+Price
+$105
+
+Captain Doge
+Captain Doge
+
+RAP
+29K
+Price
+$122
+
+Knights of the Splintered Skies: Wind Summoner
+Knights of the Splintered Skies: Wind Summoner
+
+RAP
+28K
+Price
+$125
+
+Knights of the Splintered Skies: Wind Summoner
+Knights of the Splintered Skies: Wind Summoner
+
+RAP
+28K
+Price
+$90
+
+St Patrick's Fedora
+St Patrick's Fedora
+
+RAP
+28K
+Price
+$131
+
+St Patrick's Fedora
+St Patrick's Fedora
+
+RAP
+28K
+Price
+$95
+
+Fire Flash Shades
+Fire Flash Shades
+
+RAP
+28K
+Price
+$199
+
+Green Top Hat with White Band
+Green Top Hat with White Band
+
+RAP
+28K
+Price
+$109
+
+Green Top Hat with White Band
+Green Top Hat with White Band
+
+RAP
+28K
+Price
+$78
+
+Evil Hatbot
+Evil Hatbot
+
+RAP
+28K
+Price
+$113
+
+Evil Hatbot
+Evil Hatbot
+
+RAP
+28K
+Price
+$83
+
+Portrait of a Hero at HQ
+Portrait of a Hero at HQ
+
+RAP
+28K
+Price
+$96
+
+Alien Monarch
+Alien Monarch
+
+RAP
+27K
+Price
+$106
+
+Where are the eggs?
+Where are the eggs?
+
+RAP
+27K
+Price
+$98
+
+Where are the eggs?
+Where are the eggs?
+
+RAP
+27K
+Price
+$75
+
+Rudolph
+Rudolph
+
+RAP
+26K
+Price
+$101
+
+Korblox Shoulder Pauldrons
+Korblox Shoulder Pauldrons
+
+RAP
+26K
+Price
+$97
+
+Robosquid
+Robosquid
+
+RAP
+26K
+Price
+$72
+
+Robosquid
+Robosquid
+
+RAP
+26K
+Price
+$72
+
+Robosquid
+Robosquid
+
+RAP
+26K
+Price
+$69
+
+Mrs. Tentacles
+Mrs. Tentacles
+
+RAP
+26K
+Price
+$95
+
+Mrs. Tentacles
+Mrs. Tentacles
+
+RAP
+26K
+Price
+$82
+
+Ultimate Pink Victory
+Ultimate Pink Victory
+
+RAP
+26K
+Price
+$111
+
+Ultimate Pink Victory
+Ultimate Pink Victory
+
+RAP
+26K
+Price
+$81
+
+Red Serious Scar Face
+Red Serious Scar Face
+
+RAP
+26K
+Price
+$118
+
+Red Serious Scar Face
+Red Serious Scar Face
+
+RAP
+26K
+Price
+$85
+
+Sorcus' Sword of Judgement
+Sorcus' Sword of Judgement
+
+RAP
+26K
+Price
+$96
+
+Tie
+Tie
+
+RAP
+26K
+Price
+$82
+
+Tie
+Tie
+
+RAP
+26K
+Price
+$69
+
+Bitter Chill: Guardian of All Ice 
+Bitter Chill: Guardian of All Ice
+
+RAP
+26K
+Price
+$66
 
 Bitter Chill: Guardian of All Ice 
 Bitter Chill: Guardian of All Ice
@@ -38,6 +2164,326 @@ RAP
 Price
 $48
 
+Monster Hat
+Monster Hat
+
+RAP
+26K
+Price
+$265,000
+
+Rockstar Disguise
+Rockstar Disguise
+
+RAP
+25K
+Price
+$106
+
+Rockstar Disguise
+Rockstar Disguise
+
+RAP
+25K
+Price
+$81
+
+Facepalm
+Facepalm
+
+RAP
+25K
+Price
+$106
+
+Hat of the Week: Year of the Tiger Dragon
+Hat of the Week: Year of the Tiger Dragon
+
+RAP
+24K
+Price
+$78
+
+Hat of the Week: Year of the Tiger Dragon
+Hat of the Week: Year of the Tiger Dragon
+
+RAP
+24K
+Price
+$78
+
+Sinister Q.
+Sinister Q.
+
+RAP
+24K
+Price
+$102
+
+Sinister Q.
+Sinister Q.
+
+RAP
+24K
+Price
+$90
+
+Lava Reactor
+Lava Reactor
+
+RAP
+24K
+Price
+$98
+
+Lava Reactor
+Lava Reactor
+
+RAP
+24K
+Price
+$71
+
+Adurite Fedora with Black Iron Accent
+Adurite Fedora with Black Iron Accent
+
+RAP
+24K
+Price
+$129
+
+Adurite Fedora with Black Iron Accent
+Adurite Fedora with Black Iron Accent
+
+RAP
+24K
+Price
+$93
+
+Purple Butterfly Smile
+Purple Butterfly Smile
+
+RAP
+24K
+Price
+$99
+
+Purple Butterfly Smile
+Purple Butterfly Smile
+
+RAP
+24K
+Price
+$72
+
+Purple Mermaid Princess
+Purple Mermaid Princess
+
+RAP
+24K
+Price
+$131
+
+Purple Mermaid Princess
+Purple Mermaid Princess
+
+RAP
+24K
+Price
+$94
+
+Legendary Egg of Gygax
+Legendary Egg of Gygax
+
+RAP
+24K
+Price
+$66
+
+Legendary Egg of Gygax
+Legendary Egg of Gygax
+
+RAP
+24K
+Price
+$66
+
+Jade Katana of the Darkest Forest
+Jade Katana of the Darkest Forest
+
+RAP
+24K
+Price
+$96
+
+Jade Katana of the Darkest Forest
+Jade Katana of the Darkest Forest
+
+RAP
+24K
+Price
+$70
+
+Noob Attack!
+Noob Attack!
+
+RAP
+23K
+Price
+$73
+
+Noob Attack!
+Noob Attack!
+
+RAP
+23K
+Price
+$69
+
+Geography Textbook
+Geography Textbook
+
+RAP
+23K
+Price
+$64
+
+Geography Textbook
+Geography Textbook
+
+RAP
+23K
+Price
+$64
+
+Vegetable Hat
+Vegetable Hat
+
+RAP
+23K
+Price
+$75
+
+The Raven
+The Raven
+
+RAP
+22K
+Price
+$78
+
+Snowman Face
+Snowman Face
+
+RAP
+22K
+Price
+$85
+
+Halloween Headphones
+Halloween Headphones
+
+RAP
+22K
+Price
+$159
+
+Pink Mermaid Princess
+Pink Mermaid Princess
+
+RAP
+22K
+Price
+$90
+
+Pink Mermaid Princess
+Pink Mermaid Princess
+
+RAP
+22K
+Price
+$64
+
+Clown School Dropout
+Clown School Dropout
+
+RAP
+22K
+Price
+$81
+
+Forbidden Box
+Forbidden Box
+
+RAP
+22K
+Price
+$99
+
+Forbidden Box
+Forbidden Box
+
+RAP
+22K
+Price
+$71
+
+Golden Fabergé Egg of Hivemind
+Golden Fabergé Egg of Hivemind
+
+RAP
+22K
+Price
+$84
+
+Golden Fabergé Egg of Hivemind
+Golden Fabergé Egg of Hivemind
+
+RAP
+22K
+Price
+$60
+
+President Doge
+President Doge
+
+RAP
+21K
+Price
+$78
+
+Fawkes Face
+Fawkes Face
+
+RAP
+21K
+Price
+$118
+
+Fawkes Face
+Fawkes Face
+
+RAP
+21K
+Price
+$85
+
+Blue Eyeroll
+Blue Eyeroll
+
+RAP
+21K
+Price
+$91
+
+Silver Cyborg Face Gear
+Silver Cyborg Face Gear
+
+RAP
+21K
+Price
+$82
+
 Ninja Mask of Awesome
 Ninja Mask of Awesome
 
@@ -54,6 +2500,198 @@ RAP
 Price
 $33
 
+Purple Bow Tie
+Purple Bow Tie
+
+RAP
+21K
+Price
+$74
+
+Zombie Cat
+Zombie Cat
+
+RAP
+20K
+Price
+$90
+
+Sapphire Eye
+Sapphire Eye
+
+RAP
+20K
+Price
+$55
+
+Sapphire Eye
+Sapphire Eye
+
+RAP
+20K
+Price
+$55
+
+Pin Head
+Pin Head
+
+RAP
+20K
+Price
+$88
+
+Pin Head
+Pin Head
+
+RAP
+20K
+Price
+$64
+
+Adurite Antlers
+Adurite Antlers
+
+RAP
+20K
+Price
+$78
+
+Adurite Antlers
+Adurite Antlers
+
+RAP
+20K
+Price
+$57
+
+Heart Gaze - Zara Larsson
+Heart Gaze - Zara Larsson
+
+RAP
+20K
+Price
+$80
+
+Heart Gaze - Zara Larsson
+Heart Gaze - Zara Larsson
+
+RAP
+20K
+Price
+$57
+
+Rainbow Hatbot
+Rainbow Hatbot
+
+RAP
+20K
+Price
+$87
+
+Rainbow Hatbot
+Rainbow Hatbot
+
+RAP
+20K
+Price
+$63
+
+Pink Winter Cap
+Pink Winter Cap
+
+RAP
+20K
+Price
+$96
+
+Zeus's Lightning Bolt Staff
+Zeus's Lightning Bolt Staff
+
+RAP
+20K
+Price
+$75
+
+Police Sergeants Cap
+Police Sergeants Cap
+
+RAP
+20K
+Price
+$64
+
+Police Sergeants Cap
+Police Sergeants Cap
+
+RAP
+20K
+Price
+$63
+
+Police Sergeants Cap
+Police Sergeants Cap
+
+RAP
+20K
+Price
+$52
+
+Ocherous Katana of the Setting Sun
+Ocherous Katana of the Setting Sun
+
+RAP
+20K
+Price
+$66
+
+Rail Runner 5000
+Rail Runner 5000
+
+RAP
+19K
+Price
+$70
+
+Rail Runner 5000
+Rail Runner 5000
+
+RAP
+19K
+Price
+$51
+
+So Super Excited - Purple
+So Super Excited - Purple
+
+RAP
+19K
+Price
+$61
+
+Magic Dragon
+Magic Dragon
+
+RAP
+19K
+Price
+$159
+
+Something Dark Within
+Something Dark Within
+
+RAP
+19K
+Price
+$74
+
+Something Dark Within
+Something Dark Within
+
+RAP
+19K
+Price
+$58
+
 Something Dark Within
 Something Dark Within
 
@@ -61,6 +2699,150 @@ RAP
 19K
 Price
 $42
+
+Got Milk Visor
+Got Milk Visor
+
+RAP
+19K
+Price
+$90
+
+Got Milk Visor
+Got Milk Visor
+
+RAP
+19K
+Price
+$82
+
+Korblox Deathspeaker's Spell Book
+Korblox Deathspeaker's Spell Book
+
+RAP
+19K
+Price
+$106
+
+Smart Chocolate Cap
+Smart Chocolate Cap
+
+RAP
+18K
+Price
+$78
+
+Camoface
+Camoface
+
+RAP
+18K
+Price
+$82
+
+Camoface
+Camoface
+
+RAP
+18K
+Price
+$59
+
+Mauve Visor
+Mauve Visor
+
+RAP
+18K
+Price
+$70
+
+Green Wistful Wink
+Green Wistful Wink
+
+RAP
+18K
+Price
+$69
+
+Green Wistful Wink
+Green Wistful Wink
+
+RAP
+18K
+Price
+$51
+
+Infernal Undead Immortal Sword
+Infernal Undead Immortal Sword
+
+RAP
+18K
+Price
+$68
+
+Infernal Undead Immortal Sword
+Infernal Undead Immortal Sword
+
+RAP
+18K
+Price
+$52
+
+Golden Top Hat of Bling Bling
+Golden Top Hat of Bling Bling
+
+RAP
+18K
+Price
+$69
+
+Golden Top Hat of Bling Bling
+Golden Top Hat of Bling Bling
+
+RAP
+18K
+Price
+$69
+
+Golden Top Hat of Bling Bling
+Golden Top Hat of Bling Bling
+
+RAP
+18K
+Price
+$64
+
+Cupid's Beloved Blade
+Cupid's Beloved Blade
+
+RAP
+18K
+Price
+$127
+
+Hat-Eating Hat
+Hat-Eating Hat
+
+RAP
+18K
+Price
+$68
+
+Fuzzy Snowman Hat
+Fuzzy Snowman Hat
+
+RAP
+17K
+Price
+$68
+
+Butterfly
+Butterfly
+
+RAP
+17K
+Price
+$66
 
 Butterfly
 Butterfly
@@ -70,6 +2852,30 @@ RAP
 Price
 $47
 
+Wicked Top Hat
+Wicked Top Hat
+
+RAP
+17K
+Price
+$64
+
+Trance
+Trance
+
+RAP
+17K
+Price
+$53
+
+Flaming Hedgehog Cannon
+Flaming Hedgehog Cannon
+
+RAP
+17K
+Price
+$63
+
 Flaming Hedgehog Cannon
 Flaming Hedgehog Cannon
 
@@ -84,7 +2890,71 @@ Dragon Slayers Sword and Shield
 RAP
 17K
 Price
+$63
+
+Dragon Slayers Sword and Shield
+Dragon Slayers Sword and Shield
+
+RAP
+17K
+Price
 $46
+
+Magical Rainbow Pony
+Magical Rainbow Pony
+
+RAP
+17K
+Price
+$61
+
+Magical Rainbow Pony
+Magical Rainbow Pony
+
+RAP
+17K
+Price
+$58
+
+Sophisticated Seagull
+Sophisticated Seagull
+
+RAP
+17K
+Price
+$55
+
+Sophisticated Seagull
+Sophisticated Seagull
+
+RAP
+17K
+Price
+$55
+
+Epic Face Tie
+Epic Face Tie
+
+RAP
+17K
+Price
+$73
+
+Epic Face Tie
+Epic Face Tie
+
+RAP
+17K
+Price
+$53
+
+Mischievous Raccoon
+Mischievous Raccoon
+
+RAP
+16K
+Price
+$69
 
 Mischievous Raccoon
 Mischievous Raccoon
@@ -93,6 +2963,14 @@ RAP
 16K
 Price
 $50
+
+8-Bit Royal Crown
+8-Bit Royal Crown
+
+RAP
+16K
+Price
+$61
 
 8-Bit Royal Crown
 8-Bit Royal Crown
@@ -102,6 +2980,30 @@ RAP
 Price
 $45
 
+The Crown of Nachos
+The Crown of Nachos
+
+RAP
+16K
+Price
+$70
+
+The Crown of Nachos
+The Crown of Nachos
+
+RAP
+16K
+Price
+$51
+
+Mighty Ruler of Dragon's Fire
+Mighty Ruler of Dragon's Fire
+
+RAP
+16K
+Price
+$69
+
 Mighty Ruler of Dragon's Fire
 Mighty Ruler of Dragon's Fire
 
@@ -109,6 +3011,30 @@ RAP
 16K
 Price
 $50
+
+Orbital Piano Strike
+Orbital Piano Strike
+
+RAP
+16K
+Price
+$66
+
+Golden Bling Braces
+Golden Bling Braces
+
+RAP
+15K
+Price
+$61
+
+Bucket
+Bucket
+
+RAP
+15K
+Price
+$53
 
 Bucket
 Bucket
@@ -133,6 +3059,14 @@ RAP
 15K
 Price
 $41
+
+Feared Skull of All Eternity's Doom
+Feared Skull of All Eternity's Doom
+
+RAP
+15K
+Price
+$66
 
 Feared Skull of All Eternity's Doom
 Feared Skull of All Eternity's Doom
@@ -172,6 +3106,22 @@ Poseidon
 RAP
 15K
 Price
+$65
+
+Poseidon
+Poseidon
+
+RAP
+15K
+Price
+$55
+
+Poseidon
+Poseidon
+
+RAP
+15K
+Price
 $47
 
 Winter
@@ -180,7 +3130,31 @@ Winter
 RAP
 15K
 Price
+$65
+
+Winter
+Winter
+
+RAP
+15K
+Price
 $47
+
+Dragon Tamer
+Dragon Tamer
+
+RAP
+15K
+Price
+$80
+
+America's Steampunk Crown
+America's Steampunk Crown
+
+RAP
+15K
+Price
+$68
 
 America's Steampunk Crown
 America's Steampunk Crown
@@ -197,6 +3171,14 @@ RAP
 14K
 Price
 $45
+
+Mildly Irritated Face
+Mildly Irritated Face
+
+RAP
+14K
+Price
+$51
 
 Mildly Irritated Face
 Mildly Irritated Face
@@ -206,6 +3188,38 @@ RAP
 Price
 $36
 
+Eyes of Everfrost
+Eyes of Everfrost
+
+RAP
+14K
+Price
+$69
+
+Robot Luv
+Robot Luv
+
+RAP
+14K
+Price
+$191
+
+Desert Ninja
+Desert Ninja
+
+RAP
+14K
+Price
+$64
+
+Staff of Neverending Frost
+Staff of Neverending Frost
+
+RAP
+14K
+Price
+$66
+
 Staff of Neverending Frost
 Staff of Neverending Frost
 
@@ -237,6 +3251,14 @@ RAP
 14K
 Price
 $50
+
+Minty Fresh Fedora
+Minty Fresh Fedora
+
+RAP
+14K
+Price
+$80
 
 Norseman
 Norseman
@@ -276,7 +3298,23 @@ Bolt Brain
 RAP
 14K
 Price
+$57
+
+Bolt Brain
+Bolt Brain
+
+RAP
+14K
+Price
 $42
+
+Holly Jolly Bow Tie
+Holly Jolly Bow Tie
+
+RAP
+13K
+Price
+$54
 
 Holly Jolly Bow Tie
 Holly Jolly Bow Tie
@@ -358,6 +3396,22 @@ RAP
 Price
 $32
 
+Orbital Violin Strike
+Orbital Violin Strike
+
+RAP
+12K
+Price
+$53
+
+Uncle Zom's Hat
+Uncle Zom's Hat
+
+RAP
+12K
+Price
+$54
+
 Uncle Zom's Hat
 Uncle Zom's Hat
 
@@ -412,7 +3466,23 @@ Seeing Stars
 RAP
 12K
 Price
+$52
+
+Seeing Stars
+Seeing Stars
+
+RAP
+12K
+Price
 $38
+
+Queen's Winter Tiara - Mariah Carey
+Queen's Winter Tiara - Mariah Carey
+
+RAP
+12K
+Price
+$56
 
 Queen's Winter Tiara - Mariah Carey
 Queen's Winter Tiara - Mariah Carey
@@ -476,7 +3546,7 @@ Rubber Duckie
 RAP
 12K
 Price
-$37
+$39
 
 Rubber Duckie
 Rubber Duckie
@@ -596,6 +3666,14 @@ Egypt's Greatest Ruler
 RAP
 12K
 Price
+$51
+
+Egypt's Greatest Ruler
+Egypt's Greatest Ruler
+
+RAP
+12K
+Price
 $37
 
 Bluesteel Katana
@@ -605,6 +3683,14 @@ RAP
 12K
 Price
 $49
+
+Dual Katanas of the DarkAge Clan
+Dual Katanas of the DarkAge Clan
+
+RAP
+12K
+Price
+$51
 
 Dual Katanas of the DarkAge Clan
 Dual Katanas of the DarkAge Clan
@@ -732,6 +3818,14 @@ Festive Artemis Bow
 RAP
 11K
 Price
+$53
+
+Festive Artemis Bow
+Festive Artemis Bow
+
+RAP
+11K
+Price
 $38
 
 Busted Top Hat
@@ -749,6 +3843,14 @@ RAP
 11K
 Price
 $46
+
+NARS Lip Crossbody Bag 1.0
+NARS Lip Crossbody Bag 1.0
+
+RAP
+11K
+Price
+$59
 
 NARS Lip Crossbody Bag 1.0
 NARS Lip Crossbody Bag 1.0
@@ -876,7 +3978,7 @@ Classic Viking Helm
 RAP
 10K
 Price
-$30
+$32
 
 Classic Viking Helm
 Classic Viking Helm
@@ -933,6 +4035,14 @@ RAP
 9.8K
 Price
 $42
+
+Upside Down Cherry Pie
+Upside Down Cherry Pie
+
+RAP
+9.8K
+Price
+$530
 
 Halloween Lorebook One
 Halloween Lorebook One
@@ -1398,22 +4508,6 @@ RAP
 Price
 $28
 
-World Tour Hot Air Balloon
-World Tour Hot Air Balloon
-
-RAP
-7.9K
-Price
-$27
-
-World Tour Hot Air Balloon
-World Tour Hot Air Balloon
-
-RAP
-7.9K
-Price
-$20
-
 Halloween Formal Top Hat
 Halloween Formal Top Hat
 
@@ -1477,14 +4571,6 @@ RAP
 7.8K
 Price
 $23
-
-So Super Excited - Pink
-So Super Excited - Pink
-
-RAP
-7.8K
-Price
-$33
 
 Galactic Forcefield Glove
 Galactic Forcefield Glove
@@ -2198,6 +5284,14 @@ RAP
 Price
 $22
 
+Sebastian, the Fancy Crab
+Sebastian, the Fancy Crab
+
+RAP
+6.2K
+Price
+$138
+
 Z Ray Gun
 Z Ray Gun
 
@@ -2509,6 +5603,14 @@ RAP
 5.8K
 Price
 $20
+
+The Tale of EPIC DUCK
+The Tale of EPIC DUCK
+
+RAP
+5.7K
+Price
+$6,087
 
 The Tale of EPIC DUCK
 The Tale of EPIC DUCK
@@ -2700,6 +5802,14 @@ Blue Amazeface
 RAP
 5.5K
 Price
+$58
+
+Blue Amazeface
+Blue Amazeface
+
+RAP
+5.5K
+Price
 $15
 
 Blue Amazeface
@@ -2836,7 +5946,7 @@ Telamon's Crafting Jewel
 RAP
 5.2K
 Price
-$18
+$15
 
 Telamon's Crafting Jewel
 Telamon's Crafting Jewel
@@ -2844,7 +5954,7 @@ Telamon's Crafting Jewel
 RAP
 5.2K
 Price
-$13
+$11
 
 Drill Sergeant
 Drill Sergeant
@@ -4077,22 +7187,6 @@ RAP
 4.2K
 Price
 $12
-
-Hot Pink Fabergé Egg
-Hot Pink Fabergé Egg
-
-RAP
-4.2K
-Price
-$10
-
-Hot Pink Fabergé Egg
-Hot Pink Fabergé Egg
-
-RAP
-4.2K
-Price
-$7
 
 Santa Chimney Top Hat
 Santa Chimney Top Hat
@@ -10013,3 +13107,36 @@ RAP
 712
 Price
 $3
+
+logotype
+Home
+
+Market
+
+Support
+
+History
+
+Privacy Policy
+
+Affiliate
+
+Terms of Service
+
+Claims
+
+Socials
+
+Email: help@adurite.com
+
+Main Business Address
+
+2024 ADUR1TE LIMITED
+
+Unit 8, 3/F., Qwomar Trading Complex, Blackburne Road, Port Purcell,Road Town, Tortola, British Virgin Islands VG1110
+
+payment-methodpayment-methodpayment-methodpayment-method
+Adurite © 2024 - Not affiliated in any way with the Roblox Corporation or any of its trademarks.
+
+Adurite.com's services are not the same, similar or equivalent to Roblox Corporation's products and services and we are not sponsored by, affiliated with, approved by and/or authorized by ROBLOX Corporation whatsoever. Adurite.com is a community led player to player marketplace which is operated by P2P limited item trades purchased by and sold by users, not directly from the platform or officially from the site/corporation's platform.
+
