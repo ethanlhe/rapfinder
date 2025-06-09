@@ -8,7 +8,7 @@
         :root {
             --bg-color: #fafbfc;
             --card-bg: #fff;
-            --card-bg-dark: #444444;
+            --card-bg-dark: #2e2e2e;
             --text-color: #181818;
             --border-color: #ececec;
             --hover-bg: #f7f7fa;
@@ -33,7 +33,7 @@
             --header-color: #e0e0e0;
             --accent-color: #00FF01;
             --accent-hover-color: #fff;
-            --shadow-color: rgba(0, 0, 0, 0.2);
+            --shadow-color: rgba(0, 0, 0, 0.3);
             --modal-bg: rgba(0,0,0,0.5);
         }
 
@@ -112,7 +112,7 @@
             border-radius: 10px;
             font-size: 1rem;
             background: var(--input-bg);
-            transition: border 0.2s, background-color 0.3s;
+            transition: border 0.3s, background-color 0.3s;
             min-width: 120px;
             box-shadow: none;
             font-family: inherit !important;
@@ -132,7 +132,7 @@
             font-weight: 600;
             cursor: pointer;
             box-shadow: 0 1px 4px var(--shadow-color);
-            transition: background 0.2s, box-shadow 0.2s;
+            transition: background 0.3s, box-shadow 0.3s;
             font-family: inherit !important;
         }
         .controls button:hover {
@@ -169,6 +169,7 @@
             padding: 14px 16px;
             text-align: left;
             font-size: 1.05rem;
+            transition: border-color 0.3s, background 0.3s;
         }
         th {
             background: var(--bg-color);
@@ -176,7 +177,7 @@
             border-bottom: 1px solid var(--border-color);
             cursor: pointer;
             user-select: none;
-            transition: background-color 0.3s, color 0.3s;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s, background 0.3s;
             color: var(--text-color);
         }
         th:hover {
@@ -187,7 +188,7 @@
             border-bottom: 1px solid var(--border-color);
         }
         tr {
-            transition: background 0.15s;
+            transition: background .2s;
         }
         tr:hover {
             background: var(--hover-bg);
@@ -248,7 +249,7 @@
             font-weight: 600;
             cursor: pointer;
             box-shadow: 0 1px 4px var(--shadow-color);
-            transition: background 0.2s, box-shadow 0.2s;
+            transition: background 0.3s, box-shadow 0.3s;
             font-family: inherit !important;
         }
         .process-btn:hover {
@@ -322,7 +323,7 @@
             right: 0;
             bottom: 0;
             background-color: #e0e0e0;
-            transition: background 0.2s;
+            transition: background 0.3s;
             border-radius: 28px;
         }
         .slider:before {
@@ -333,7 +334,7 @@
             left: 3px;
             bottom: 3px;
             background-color: #fff;
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: transform 0.3s, box-shadow 0.3s;
             border-radius: 50%;
             box-shadow: 0 2px 6px rgba(0,0,0,0.10);
         }
