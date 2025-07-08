@@ -4,10 +4,9 @@ A modern, fast, and beautiful web app for finding the best RAP (Recent Average P
 <img width="863" alt="{8BE28E42-19C4-45FB-8831-8576B59B0881}" src="https://github.com/user-attachments/assets/f9c76da2-1057-43f1-8faa-4bb09ff7aee5" />
 
 ## Features
+![Uploading {C74B49B3-A98D-44CD-98CF-6E467D84690E}.png…]()
 
 - **Paste & Process**: Quickly paste item data from other sources.
-  <img width="415" alt="{4D642940-5318-4A60-B947-2D60583828E0}" src="https://github.com/user-attachments/assets/d30a0814-37dd-497a-9f0d-3ad9a1705f54" />
-
 - **Filter**: Set min/max price and RAP filters.
 - **Sort**: Click or Ctrl+Click table headers to sort by multiple columns.
 - **Dark Mode**: Toggle between light and dark themes with a smooth, modern switch. Theme preference is saved and respects your system default.
